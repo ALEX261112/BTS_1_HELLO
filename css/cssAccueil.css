@@ -1,0 +1,61 @@
+#principal{
+    width: 1200px;
+    height:1500PX;
+}
+#entete{
+    height: 120px;
+    width: 800px;
+    border:10px solid darkgreen;
+    display: flex;
+}
+
+#image-gauche{
+    margin-right: 50px;
+}
+#titre {
+    margin-left: 250px;
+}
+#image-droite {
+    margin-left:240px ;
+}
+#contenu{
+    border:10px solid darkgreen;
+    width:800px;
+    height: 350px;
+    font-size: 20px;
+    text-align: center;
+    color:darkgreen;
+    background-color: white;
+}
+
+#imagecorail {
+    float: left;
+    margin-top: -105px;
+}
+#pieddepage{
+    border:10px solid darkgreen;
+    width:800px ;
+    height:120px;
+    background-color: white;}
+#reseaux{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+#tel{
+    margin-top:-10px;
+
+}
+#contacts{
+    margin-left: 360px;
+    margin-top:-70px ;
+}
+#mail{
+    margin-top: -60px;
+}
+#style{
+
+    height: 300px;
+    width: 780px;
+    text-align: center;
+}

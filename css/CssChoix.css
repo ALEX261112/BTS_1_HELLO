@@ -1,0 +1,142 @@
+body {
+    /**/
+    font-family: Arial, sans-serif;
+    background-color: #e4f1e4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 25px solid #4f8a54;
+    border-top: 25px solid #4f8a54;
+    border-left: 25px solid #4f8a54;
+    border-right: 25px solid #4f8a54;
+}
+#image-gauche{
+    margin-right: 500px;
+    margin-top: -30px;
+}
+#image-droite{
+    margin-left: 450px ;
+    margin-bottom: -90px;
+}
+h1 {
+     color: #1f5e27;
+     font-size: 40px;
+     margin: 10px;
+ }
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 25px solid #4f8a54;
+    border-top: 25px solid #4f8a54;
+    border-left: 25px solid #4f8a54;
+    border-right: 25px solid #4f8a54;
+    /*grid-template-columns: repeat(2, 1fr);*/
+}
+.left-panel {
+    background: #ffffff;
+    padding: 20px;
+    border: 3px solid #4f8a54;
+    width: 35%;
+    border-radius: 10px;
+}
+.left-panel h2 {
+    color: #1f5e27;
+    margin-bottom: 10px;
+}
+.left-panel label {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+.left-panel input[type="number"] {
+    width: 80px;
+    margin-left: auto;
+    border: 2px solid #b5673c;
+    padding: 3px;
+    border-radius: 5px;
+}
+.btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.valider {
+    border: #1f5e27;
+    background-color: grey;
+    color: limegreen;
+}
+
+.annuler {
+    border: darkred;
+    background-color: grey;
+    color: red;
+}
+
+.right-panel {
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    border-color: darkblue;
+    /*gap: 0px;*/
+}
+
+.right-panel img {
+    /*width: 100%;*/
+    border-radius: 10px;
+}
+#link{
+
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 4px solid #4f8a54;
+    border-top: 4px solid #4f8a54;
+    border-left: 4px solid #4f8a54;
+    border-right: 4px solid #4f8a54;
+    text-align: center;
+    height: 50px;
+}
+    #pieddepage{
+        border:10px solid darkgreen;
+        width:800px ;
+        height:120px;
+        background-color: white;
+    }
+    #reseaux{
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    #tel{
+        margin-top: -100px;
+        margin-right: 550px;
+    }
+    #contacts{
+        margin-left: 360px;
+        margin-top:-70px ;
+    }
+    #mail{
+        margin-top: 90px;
+        margin-right: 1000PX;
+    }
+    #style{
+        height: 300px;
+        width: 780px;
+        text-align: center;
+    }
